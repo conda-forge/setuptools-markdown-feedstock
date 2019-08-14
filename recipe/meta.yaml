@@ -14,13 +14,14 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   noarch: python
 
 requirements:
   build:
+    - pip
     - python
-    - setuptools    
+    - setuptools        
   run:
     - python    
     - pypandoc
@@ -32,8 +33,7 @@ test:
 about:
   home: https://github.com/msabramo/setuptools-markdown
   license: MIT
-  # at this time the license file is not included in the sdist:
-  # https://github.com/msabramo/setuptools-markdown/pull/18
+  license_file: LICENSE-MIT
   summary: Use Markdown for your project description
   dev_url: https://github.com/msabramo/setuptools-markdown
 
