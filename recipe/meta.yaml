@@ -1,7 +1,7 @@
 {% set name = "setuptools-markdown" %}
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 {% set hash_type = "sha256" %}
-{% set hash = "89612f5cd790b7fcb25c15df25d6487c3cb2ff169a7b322012e747bb3de30d84" %}
+{% set hash = "6248a514b9483d9a06061a2c6d57f5c47431b5151c8fe5e20f5bda132bc8de89" %}
 
 package:
   name: {{ name }}
