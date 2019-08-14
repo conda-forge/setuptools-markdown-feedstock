@@ -1,6 +1,4 @@
-travis:
-  secure:
-    BINSTAR_TOKEN: F/1/mlbYxX+ykn8Jij+qlnEv4boz5UnenAGOvAtSvuNwaYCIBZEWhT7WIe7hc8Af698nRYbEJ7guH9oUgndW9IyeSfA4NQViV2D6Ptj/wWvoAFZG/8XIpJrwN1MHTSpAJi7uEbWT7EXkxoeGmC8/1AANm3tiJFVshlRkHgBI69GSDp4OtTkBHACXdt7hJxGhVM2SmEsIl/oaESxEHFm+FnEw1UrurMxHVbveEgOy9lRoJUpPA7y4OqPhd5n3cX/pt/TmuLw8gGX7pnNUeUYuW7wDakewaKSOZCI9gerzBqVUF88Cr8wQ2/5yj54r4ejTFO5COknVta+X+874EkC6sediYoE7C2zoA11WGX5JpxShZs8kV2ers/KrakBE0qlg5JgpR3/CeUiI+krTjva7g9bz9eJzgM+eeuy7AGZOqhfxdKHKbTwwzkYIefX0ohxhw9TtfhYfrtUaH0NYKWBy06XDmsS4Y4/QapNc+27UE9e1k0Ze7M14GZgOso0xV0++jYB9QwdFEXslTyuhGXfq4z/k04lyx54IQEIR2viOnBJZgfMMLLg6aB1l9brhFBVLB8MLRoj8YFwD5Q5UEBgrJEEdrUMnnymN+7jf+jgpVTjsRq3GqpqYn4Jmyu/NRzPXFIivg9sEkUasJD1ng9RrDsrLzXiA5uzwoctZKyzV4IY=
-appveyor:
-  secure:
-    BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1
+provider:
+  linux: azure
+  osx: azure
+  win: azure
